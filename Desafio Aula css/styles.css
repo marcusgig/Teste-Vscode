@@ -1,0 +1,189 @@
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin: 42px 47px
+}
+
+.desafio-header {
+
+    color: #17233D;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.875px;
+    text-decoration: none;
+    margin-left: 32px;
+}
+
+
+.button-header {
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1px;
+    border-radius: 6px;
+    border: 1px solid #4CB538;
+    background: #6FBF44;
+    width: 124px;
+    height: 51px;
+    flex-shrink: 0;
+    cursor: pointer;
+    margin-left: 32px;
+}
+
+#company {
+    margin-left: 36px;
+}
+
+.img-logo {
+
+    width: 533.834px;
+    height: 466.9px;
+    flex-shrink: 0;
+    margin-left: 121px;
+    margin-top: 163px;
+    display: inline-block;
+
+}
+
+section {
+    display: inline-block;
+    margin-left: 96.83px;
+}
+
+h1 {
+    color: #161A49;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;
+    font-size: 62px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 82px;
+    letter-spacing: 0.596px;
+    width: 493px;
+}
+
+p {
+    margin-top: 47px;
+    color: #4B505A;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    width: 493px;
+}
+
+.button-section {
+    color: #6FBF44;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1px;
+    border: none;
+    cursor: pointer;
+    background: #FFF;
+    margin-top: 55px;
+}
+
+@media screen and (max-width:900px) {
+    header {
+        width: 100%;
+        height: 50%;
+        padding: 0;
+        margin:0;
+    }
+
+    .desafio-header {
+        display: none;
+    }
+
+    .button-header {
+        display: block;
+        width: 91px;
+        height: 31px;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        letter-spacing: 1px;
+       position: fixed;
+       top: 20px;
+       right: 20px;
+       ;
+       
+       justify-content: right;
+
+    }
+
+    main {
+        display: flex;
+        flex-direction: column-reverse;
+        height: auto;
+        width: 100%;
+        position: static;
+         text-align: center;
+        justify-content: center;
+        
+    }
+
+    img {
+        position: static;
+        max-width: 90%;
+        height: auto;
+    }
+
+    section {
+        width: 100%;
+        height: 40%;
+        margin: 0;
+        padding: 0;
+       
+    }
+
+    h1 {
+        width: 278px;
+
+        text-align: center;
+        margin-top: 60px;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 30px;
+        letter-spacing: 0.596px;
+    }
+
+    p {
+        width: 304px;
+        text-align: center;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 33px;
+        letter-spacing: 0.5px;
+    }
+
+    .button-section {
+        display: block;
+        margin: 0 auto;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 1px;
+        justify-content: center;
+        align-items: center;
+        
+
+    }
+}
